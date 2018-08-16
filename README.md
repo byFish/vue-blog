@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # vue-blog
 vue-cli编写的个人博客
 =======
@@ -33,3 +34,7 @@ npm test
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 >>>>>>> master
+=======
+# vue-blog
+vue-cli编写的个人博客
+>>>>>>> 81eee44c87967d9fa090eb8a18ee8463c625f79e
