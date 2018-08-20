@@ -24,6 +24,8 @@ export default {
   .body{
     margin:0;
     padding: 6vh 0 6vh;
+    background: #c6e1e4;
+    min-height: 88vh;
   }
   .header{
     position: fixed;

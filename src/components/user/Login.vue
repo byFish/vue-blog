@@ -41,7 +41,7 @@ export default {
   position: relative;
   top:-15vh;
   left:-20vw;
-  background: rgba(255,255,255,0.8);
+
   overflow: hidden;
   margin:  auto;
   max-width: 23em;
@@ -55,7 +55,16 @@ export default {
     content: '';
     position: absolute;
     top:0; right: 0; bottom: 0; left: 0;
-    filter: blur(15px);
+    filter: blur(10px);
+    margin: -20px;
+    z-index: -2;
+  }
+
+  &:before{
+    content: '';
+    position: absolute;
+    top:0; right: 0; bottom: 0; left: 0;
+    background: rgba(255,255,255,0.2);
     z-index: -1;
   }
 }
